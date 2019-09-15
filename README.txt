@@ -13,6 +13,10 @@ apoyarnos en el grupo de facebook.
 
 [+] Instalacion [+]
 
+# git clone clone https://github.com/FluxHks/FBTH_Faceboo_Hacking_Tools.git
+# cd FBTH_Faceboo_Hacking_Tools/
+# chmod +x FBTH.py
+# chmod +x install.py
 # python3 install.py
 
 [*] Ejecucion [*]
