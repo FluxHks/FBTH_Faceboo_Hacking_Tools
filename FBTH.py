@@ -18,8 +18,7 @@ print(Fore.CYAN + """
         █████╗  ██████╔╝   ██║   ███████║
         ██╔══╝  ██╔══██╗   ██║   ██╔══██║
         ██║     ██████╔╝   ██║   ██║  ██║
-        ╚═╝     ╚═════╝    ╚═╝   ╚═╝  ╚═╝ v0.1
-""" + Fore.RESET)
+        ╚═╝     ╚═════╝    ╚═╝   ╚═╝  ╚═╝ v0.1""" + Fore.RESET)
 #comprobacion de modulos
 
 os.system("ls " + str(rutpid) + " > " + str(rutpid) + "/listener.txt")
