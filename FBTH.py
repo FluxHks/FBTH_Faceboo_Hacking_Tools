@@ -43,8 +43,7 @@ else:
     print(Fore.RED +"        Error al cargar los modulos, Ejecute\n        denuevo el programa o tome encuenta el mensaje de arriba" + Fore.RESET)
     exit()
 
-print(Fore.GREEN + """
-   +-------------------------------------------------------------+
+print(Fore.GREEN + """   +-------------------------------------------------------------+
    | Opciones:                                                   |
    +-------------------------------------------------------------+
    |[1] Zhacker.pl      [4] saycheese       [7] blackeye         |
