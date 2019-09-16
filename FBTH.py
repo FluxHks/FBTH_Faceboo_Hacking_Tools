@@ -139,8 +139,9 @@ YP      YP   YP  `Y88P' Y88888P Y8888P'  `Y88P'  YP   YD Y88888P 88   YD """ + F
     elif selectol == "banner":
          print(banner)
     elif selectol == "help" or selectol == "-h":
-         print (Fore.GREEN + "       [+] " + Fore.RESET + Fore.YELLOW + "COMANDS FBTH" + Fore.RESET + Fore.GREEN + " [+]")
+         print (Fore.GREEN + "\n       [+] " + Fore.RESET + Fore.YELLOW + "COMANDS FBTH" + Fore.RESET + Fore.GREEN + " [+]")
          print (Fore.GREEN + """
+       [*] help o -h   { Menu de ayuda para el uso de FBTH }
        [*] exit o quit { Salir de FBTH }
        [*] clear o cls { Limpiar pantalla }
        [*] banner      { Banner de Tools List }
