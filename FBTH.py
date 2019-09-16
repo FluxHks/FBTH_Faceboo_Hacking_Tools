@@ -98,7 +98,7 @@ YP      YP   YP  `Y88P' Y88888P Y8888P'  `Y88P'  YP   YD Y88888P 88   YD """ + F
          print("  -e, --exit         Exit from interactive prompt (exit tool)")
          print("  -c, --clear        Cleaning terminal (cleaner terminal)\n")
          while True:
-             pront = input(Fore.BLUE + "       Interactive Prompt >>> " + Fore.RESET)
+             pront = input(Fore.BLUE + "       Interactive_Prompt >>> " + Fore.RESET)
              if pront == "-i" or pront == "--interactive":
                  os.system("cd " + str(rutpid) + "/cupp && python3 cupp.py -i")
              elif pront == "--help" or pront == "-h":
