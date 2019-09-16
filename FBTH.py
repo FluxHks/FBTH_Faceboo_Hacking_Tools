@@ -161,7 +161,7 @@ YP      YP   YP  `Y88P' Y88888P Y8888P'  `Y88P'  YP   YD Y88888P 88   YD """ + F
          print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "                      Coded By FluxHack         		   " + Fore.RESET + Fore.WHITE + "[+]" + Fore.RESET)
          print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "        https://www.facebook.com/groups/667611437051055 	   " + Fore.RESET + Fore.WHITE + "[+]" + Fore.RESET)
          print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "             https://k3y4cc3ss-42.000webhostapp.com          " + Fore.RESET + Fore.WHITE + "    [+]" + Fore.RESET)
-         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + " 	       Agradecimientos especiales a : { " + Fore.RESET + Fore.GREEN + "GoldenL" + Fore.RESET + " }          " + Fore.WHITE + "[+]\n" + Fore.RESET)
+         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + " 	       Agradecimientos especiales a : { " + Fore.RESET + Fore.GREEN + "GoldenL" + Fore.RESET + Fore.RED + " }          " + Fore.RESET + Fore.WHITE + "[+]\n" + Fore.RESET)
     elif selectol == "exit" or selectol == "quit":
         print (Fore.RED + "       Saliendo ... " + Fore.RESET + Fore.GREEN + "[Ok] \n" + Fore.RESET)
         break
