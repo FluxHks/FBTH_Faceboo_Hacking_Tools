@@ -37,6 +37,7 @@ while True:
         os.system("cd " + str(rutpid) + "/fbi && chmod +x requirements.txt && chmod +x fbi.py && pip2 install -r requirements.txt")
         os.system("apt-get install setoolkit")
         os.system("apt-get install php")
+        os.system("apt-get install nano")
         os.system("apt-get install apache2")
         os.system("apt-get install perl && cd " + str(rutpid) + " && git clone https://github.com/1uh/Zhacker.pl && cd Zhacker.pl && chmod +x Zhacker.pl")
         os.system("cd " + str(rutpid) + " && git clone https://github.com/thelinuxchoice/shellphish")
