@@ -27,6 +27,7 @@ apoyarnos en el grupo de facebook.
 
 $ Se recomienda usar este script con python3 y no python2, ya que
   puede haber conflictos al momento de ejecutar el programa ;-)
-
+  (puede haber problemas al usar la herramienta en Termux, ADVERTENCIA)
+  
 ATTE : FluxHack 
 
