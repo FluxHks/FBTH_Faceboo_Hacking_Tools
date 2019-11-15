@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 import os
 from colorama import Back, Fore, init
 import time
 
-fabiola = os.environ['USER']
+fabiola = os.environ['LOGNAME']
 print(Fore.GREEN + "\n        Comprobando el Usuario ROOT [*]" + Fore.RESET)
 time.sleep(3)
 if fabiola == 'root':
 	print(Fore.GREEN + "        Usuario [ " + Fore.RESET + Fore.BLUE + str(fabiola) + Fore.RESET + Fore.GREEN + " ] Correctamente logeado" + Fore.RESET)
 else:
 	print(Fore.GREEN + "        Ejecute esta Herramienta con Permisos de Super Usuario" + Fore.RESET + Fore.RED +  " [!]\n" + Fore.RESET)
-	exit()
+#	exit()
 
 os.system("pwd > rutz.txt")
 rutz = open("rutz.txt", "r")
@@ -43,11 +44,11 @@ cantidad7 = (morelist[2])
 cantidad8 = (morelist[1])
 cantidad9 = (morelist[0])
 archb.close()
-def fabiola_teamo():
+def funct():
 	print(Fore.GREEN + "\n        Comprobando su conexion a internet [*]" + Fore.RESET)
-	os.system("python FbTools/aaa.py" + "\n")
+	os.system("python FbTools/SocialBox/codepy/aaa.py" + "\n")
 def main():
-	fabiola_teamo()
+	funct()
 if __name__ == '__main__':
 	try:
 		main()
@@ -61,13 +62,16 @@ else:
     print(Fore.RED +"        Error al cargar los modulos, Ejecute\n        denuevo el programa o tome encuenta el mensaje de arriba" + Fore.RESET)
 #    exit()
 
-print(Fore.GREEN + """   +-------------------------------------------------------------+
-   | Opciones:                                                   |
-   +-------------------------------------------------------------+
-   |[1] Zhacker.pl      [4] saycheese       [7] blackeye         |
-   |[2] SocialBox       [5] FBI             [8] Google Dork List |
-   |[3] shellphish      [6] cupp                                 |
-   +-------------------------------------------------------------+
+print(Fore.GREEN + """        +──────────────────────────────────────────────────────────────+
+        │ Opciones:                                                    │
+        +──────────────────────────────────────────────────────────────+
+        │ [1] Zhacker.pl      [7] BlackEye           [13] Spammer-Grab │
+        │ [2] SocialBox       [8] Google Dork List   [14] SocialPhish  │
+        │ [3] shellphish      [9] Ngrok              [15] SEEKER       │
+        │ [4] saycheese       [10] Serveo.net        [16] help-menu    │
+        │ [5] FBI             [11] Trape                               │
+        │ [6] cupp            [12] SMS_BOMBER                          │
+        +──────────────────────────────────────────────────────────────+
  """ + Fore.RESET)
 while True:
     banner = (Fore.CYAN + """
@@ -78,15 +82,18 @@ while True:
             ██║     ██████╔╝   ██║   ██║  ██║
             ╚═╝     ╚═════╝    ╚═╝   ╚═╝  ╚═╝ v0.1
     """ + Fore.RESET + Fore.GREEN + """
-   +-------------------------------------------------------------+
-   | Opciones:                                                   |
-   +-------------------------------------------------------------+
-   |[1] Zhacker.pl      [4] saycheese       [7] blackeye         |
-   |[2] SocialBox       [5] FBI             [8] Google Dork List |
-   |[3] shellphish      [6] cupp                                 |
-   +-------------------------------------------------------------+
+        +──────────────────────────────────────────────────────────────+
+        │ Opciones:                                                    │
+        +──────────────────────────────────────────────────────────────+
+        │ [1] Zhacker.pl      [7] BlackEye           [13] Spammer-Grab │
+        │ [2] SocialBox       [8] Google Dork List   [14] SocialPhish  │
+        │ [3] shellphish      [9] Ngrok		     [15] SEEKER       │
+	│ [4] saycheese	      [10] Serveo.net	     [16] help-menu    │
+	│ [5] FBI             [11] Trape			       │
+	│ [6] cupp            [12] SMS_BOMBER                          │
+        +──────────────────────────────────────────────────────────────+
      """ + Fore.RESET)
-    selectol = input(Fore.BLUE + "       Select [" + Fore.RESET + Fore.CYAN + time.strftime("%H:%M:%S") + Fore.RESET + Fore.BLUE + "]-->>> " + Fore.RESET)
+    selectol = input(Fore.BLUE + "        Select [" + Fore.RESET + Fore.CYAN + time.strftime("%H:%M:%S") + Fore.RESET + Fore.BLUE + "] »»» " + Fore.RESET)
     if selectol == "1":
          print(Fore.WHITE + "                               Version 2.32" + Fore.RESET)
          print(Fore.GREEN + """d88888b  .d8b.   .o88b. d88888b d8888b.  .d88b.  db   dD d88888b d8888b.
@@ -154,7 +161,7 @@ YP      YP   YP  `Y88P' Y88888P Y8888P'  `Y88P'  YP   YD Y88888P 88   YD """ + F
          os.system("cd " + str(rutpid) + "/google_dork_list && nano google_Dorks.txt")
     elif selectol == "banner":
          print(banner)
-    elif selectol == "help" or selectol == "-h":
+    elif selectol == "help" or selectol == "-h" or selectol == "16":
          print (Fore.GREEN + "\n       [+] " + Fore.RESET + Fore.YELLOW + "COMANDS FBTH" + Fore.RESET + Fore.GREEN + " [+]")
          print (Fore.GREEN + """
        [*] help o -h   { Menu de ayuda para el uso de FBTH }
@@ -175,10 +182,10 @@ YP      YP   YP  `Y88P' Y88888P Y8888P'  `Y88P'  YP   YD Y88888P 88   YD """ + F
        [7] blackeye   { Phishing a Redes sociales dentro de LAN }
        [8] Google_Dorks { Bonus de Hacking ;-) }
           """ + Fore.RESET)
-         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "                      Coded By FluxHack         		   " + Fore.RESET + Fore.WHITE + "[+]" + Fore.RESET)
-         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "        https://www.facebook.com/groups/667611437051055 	   " + Fore.RESET + Fore.WHITE + "[+]" + Fore.RESET)
-         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "             https://k3y4cc3ss-42.000webhostapp.com          " + Fore.RESET + Fore.WHITE + "    [+]" + Fore.RESET)
-         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + " 	       Agradecimientos especiales a : { " + Fore.RESET + Fore.GREEN + "GoldenL" + Fore.RESET + Fore.RED + " }          " + Fore.RESET + Fore.WHITE + "[+]\n" + Fore.RESET)
+         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "                      Coded By FluxHack         		   " + Fore.RESET + Fore.WHITE + "               [+]" + Fore.RESET)
+         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "        https://www.facebook.com/groups/667611437051055 	   " + Fore.RESET + Fore.WHITE + "               [+]" + Fore.RESET)
+         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + "             https://k3y4cc3ss-42.000webhostapp.com          " + Fore.RESET + Fore.WHITE + "                   [+]" + Fore.RESET)
+         print (Fore.WHITE + "       [+]" + Fore.RESET + Fore.RED + " 	       Agradecimientos especiales a : { " + Fore.RESET + Fore.GREEN + "GoldenL - Mr.H4ckl3k3y" + Fore.RESET + Fore.RED + " }          " + Fore.RESET + Fore.WHITE + "[+]\n" + Fore.RESET)
     elif selectol == "exit" or selectol == "quit":
         print (Fore.RED + "       Saliendo ... " + Fore.RESET + Fore.GREEN + "[Ok] \n" + Fore.RESET)
         break
