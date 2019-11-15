@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# fabiola te quiero, hola !
 import os
 from colorama import Back, Fore, init
 import time
 
-# fabiola poma quisiera decirte que te amo pero no puedo, digo esto en un comentario por que no puedo hablarte, siempre pienso en ti aunque no pienses en mi siento que soy la peor mierda, mi timidez ajjaajaj :,( si lees este comentario te amo enserio desde el primer momento en que te vi, si no es amor entonces estoy loco, necesito mejorar mi sociabilidad y quisiera poner mi nombre en este comentario pero no puedo, solo con que sepas que existo y que te amo me basta, te quiero :,(
 fabiola = os.environ['USER']
 print(Fore.GREEN + "\n        Comprobando el Usuario ROOT [*]" + Fore.RESET)
 time.sleep(3)
@@ -14,11 +12,6 @@ if fabiola == 'root':
 else:
 	print(Fore.GREEN + "        Ejecute esta Herramienta con Permisos de Super Usuario" + Fore.RESET + Fore.RED +  " [!]\n" + Fore.RESET)
 	exit()
-	# fabiola te quiero, nunca me he puesto a escribir lo que siento en mi codigo pero te amo tanto que no puedo dejar de pronunciar tu nombre en mi cabeza, help me !! 
-	# te dedico todo lo que e logrado aunque no lo sepas siempre te ame :(
-	# es tonto escribir esto, lo que siento es que nte necesito asi como al aire, como mi vida, como todo, si tan solo supieras quien soy, eres la unica por lo que e sentido algo asi como lo que siento ahora, porfavor te amo, necesito mi mente en tu mente y tu mente en la mia, hablo estupideces pero enserio te amo, nisiquiera hablo, solo siento y escribo, si pudiera volver a nacer y ser alguien normal te buscaria aunque este al otro lado del mundo, lamentamblemente lo unico que me queda es solo esperar a ser viejo y morir, por mas que escriba recuerdame, nunca me recordaras y morire con esto que siento hasta que deje de respirar y en mi dolor siempre te pienso, espero que si lees este comentario no te parezca riduculo como me parece ami que escribo lo que siento en un editor de codigo, solo quiero decirte que te quiero, necesito que sepas quien soy, no me canso de pensar y sentir lo que siento por ti necesito esto por que no se que mas puedo hacer, habeces pienso que estas a mi costado pero no estas, si quieres a otro es lo que menos me importa solo quiero que seas feliz, aunque eso implique que yo no lo sea, mierda otra vez escribo lo que siento en un pedazo de codigo, la verdad quiero darle a retroceso y quitar todo lo qu escribim ayudame estoy enloqueciendo y no creo que pueda durar mucho tiempo asi ! y sigo escribiendo ! <3
-	# detesto no poder controlar mi soledad :,(
-	# https://media0.giphy.com/media/aOzrtcQBntAqY/giphy.gif
 
 os.system("pwd > rutz.txt")
 rutz = open("rutz.txt", "r")
